@@ -16,5 +16,7 @@ CC = gcc
 CXX = g++
 NVCC = nvcc
 
+CUDA_INCLUDE = /usr/local/cuda-11.8/targets/x86_64-linux/include/
+
 LDFLAGS = -lm -pthread
 COMMON = -Iinclude/ -Isrc/
